@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>My First Form</title>
+    </head>
+    <body>
+        <form method="get">
+            <label for="email">Email :</label>
+            <input type="email" value="" id="email" name="email" maxlength="250">
+            <br><br>
+            <label>First Name :</label>
+            <input type="text" name="name" required autocomplete="off">
+            <br><br>
+            <label>Enter Your Web Site :</label>
+            <input type="url" required><br><br>
+            <label for="">Enter your mobile number :</label>
+            <input type="tel" maxlength="10"><br><br>
+            <label for="">Age :</label>
+            <input type="number" name="number" value="15" id="age" min="15" max="50" step="1"><br><br>
+            <label for="">Range :</label>
+            <input type="range" name="" id="" min="1" max="10"><br><br>
+            <label for="">Month:</label>
+            <input type="month" name="" id="" min="1945-01-01"><br><br>
+            <label for="">Week :</label>
+            <input type="week" name="" id=""><br><br>
+            <label for="">Color :</label>
+            <input type="color" name="" id=""><br><br>
+            <label for="">Password :</label>
+            <input type="password" name="" id="" required placeholder="Enter your password" autofocus><br><br>
+            <label for="">Progress Bar :</label>
+            <progress value="35" max="100"></progress><br><br>
+            <label for="">Meter :</label>
+            <meter value="125" min="0" max="400" title="Number's Second" low="120" high="300"></meter><br><br>
+            <input type="submit" value="submit"><br><br>
+            <button type="submit">submit</button><br><br>
+
+            <label for="">Select Hobby :</label>
+            <select name="" id="hobby">
+                <option value="Gamong">Gaming</option>
+                <option value="Dancing">Dancing</option>
+                <option value="Movie">Movie</option>
+            </select>
+            <br><br>
+            <label for="">Select Gender :</label>
+            Male <input type="radio" name="gender" id="" value="male"><br><br>
+            Female <input type="radio" name="gender" id="" value="female"><br><br>
+            Other <input type="radio" name="gender" id="" value="Other"><br><br>
+
+            <label for="">Select Subject :</label>
+            English <input type="checkbox" name="Subject" id="" value="english"><br><br>
+            Maths <input type="checkbox" name="Subject" id="" value="maths"><br><br>
+            Science <input type="checkbox" name="Subject" id="" value="science"><br><br>
+            <label for="">Address :</label>
+            <textarea name="" id="" value="address" required placeholder="Current Address"></textarea>
+        </form>
+    </body>
+</html>     

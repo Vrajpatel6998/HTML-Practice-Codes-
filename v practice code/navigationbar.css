@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24+Charted&display=swap');
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    float: left;
+    padding: 20px;
+    font-family: "Jacquard 24 Charted";
+    font-size: 30px;
+}
+
+.li a {
+    color: black;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: green;
+    color: white;
+}

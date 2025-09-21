@@ -1,0 +1,145 @@
+ul {
+    list-style: none;
+}
+
+ul li {
+    float: left;
+    padding: 10px;
+    font-size: 20px;
+    font-family: "Alegreya", serif;
+}
+
+.li a {
+    color: black;
+    text-decoration: none;
+    /*margin-top: 200px;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-top: 200px;*/
+    padding-left: 28px;
+}
+
+li a:hover {
+    font: bold;
+}
+
+.c {
+    padding-left: 320px;
+}
+
+.b {
+    margin-left: 150px;
+    border-radius: 50px;
+    height: 30px;
+    width: 150px;
+    font-family: "Alegreya", serif;
+    background-color: rgb(235, 164, 66);
+}
+
+.jk {
+    font-family: "Alegreya", serif;
+    color: rgb(88, 87, 87);
+}
+
+.q {
+    margin-left: 125px;
+    margin-right: 125px;
+    text-align: justify;
+    color: rgb(111, 110, 110);
+    font-family: "Alegreya", serif;
+    font-size: 20px;
+}
+
+.row::after {
+    padding-left: 100px;
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column {
+    float: left;
+    padding: 5px;
+    width: 270px;
+    padding-left: 42.5px;
+}
+
+.me {
+    color: rgb(88, 87, 87);
+    padding-left: 20px;
+    font-family: "Alegreya", serif;
+}
+
+.gh {
+    color: rgb(111, 110, 110);
+    padding-left: 20px;
+    text-align: justify;
+    font-family: "Alegreya", serif;
+    font-size: 20px;
+}
+
+/* .df {
+     background-color: rgb(235, 164, 66); 
+     background-color: red;
+}*/
+
+.io {
+    padding-top: 40px;
+    color: rgb(88, 87, 87);
+    font-family: "Alegreya", serif;
+}
+
+.row1::after {
+    padding-left: 100px;
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column1 {
+    float: left;
+    padding: 3px;
+    width: 20%;
+    padding-left: 120px;
+}
+
+.ggg {
+    color: rgb(111, 110, 110);
+    text-align: justify;
+    font-family: "Alegreya", serif;
+    font-size: 18px;
+}
+
+.footer {
+    height: 270px;
+    background-color: white;
+}
+
+.kk {
+    margin: 30px;
+    color: rgb(74, 74, 74);
+    padding-left: 60px;
+    padding-top: 50px;
+    font-size: 25px;
+    font-family: "Alegreya", serif;
+}
+
+.tr {
+    color: rgb(74, 74, 74);
+      
+    margin: 90px;
+}
+
+.yui {
+    color: rgb(74, 74, 74);
+    font-family: "Alegreya", serif;
+}
+
+.r {
+    color: orange;
+}
+
+.kh {
+    color: rgb(74, 74, 74);
+    font-family: "Alegreya", serif;
+}

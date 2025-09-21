@@ -1,0 +1,110 @@
+ul {
+    list-style: none;
+}
+
+ul li {
+    float: left;
+    padding: 10px;
+    font-size: 20px;
+    font-family: "Alegreya", serif;
+}
+
+.li a {
+    color: black;
+    text-decoration: none;
+    /*margin-top: 200px;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-top: 200px;*/
+    padding-left: 28px;
+}
+
+li a:hover {
+    font: bold;
+}
+
+.c {
+    padding-left: 320px;
+}
+
+.b {
+    margin-left: 150px;
+    background-color: rgb(235, 164, 66);
+    border-radius: 50px;
+    height: 30px;
+    width: 150px;
+    font-family: "Alegreya", serif;
+}
+
+.hg {
+    font-family: "Alegreya", serif;
+    padding-left: 50px;
+    color: rgb(50, 50, 50);
+}
+
+.ta {
+    padding-left: 100px;
+}
+
+.ttd {
+    font-family: "Alegreya", serif;
+    padding: 20px;
+}
+
+/* .in {
+    width: 500px;
+    height: 30px;
+} */
+
+.footer {
+    height: 265px;
+    background-color: white;
+}
+
+.kk {
+    margin: 30px;
+    color: rgb(74, 74, 74);
+    padding-left: 60px;
+    padding-top: 50px;
+    font-size: 25px;
+    font-family: "Alegreya", serif;
+}
+
+.tr {
+    color: rgb(74, 74, 74);
+    
+    margin: 90px;
+}
+
+.yui {
+    color:  rgb(74, 74, 74);
+    font-family: "Alegreya", serif;
+}
+
+.r {
+    color: orange;
+}
+
+.xc {
+    color: rgb(74, 74, 74);
+    font-family: "Alegreya", serif;
+}
+
+.nm {
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 10px;
+    width: 500px;
+    height: 30px;
+}
+
+.nm:focus {
+    border: 2px solid  rgb(235, 164, 66);
+}
+
+.mn {
+    /* border-radius: 10px; */
+    /* border: none;
+    outline: none; */
+    cursor: pointer;
+}

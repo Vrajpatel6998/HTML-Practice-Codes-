@@ -1,0 +1,134 @@
+ul {
+    list-style: none;
+}
+
+ul li {
+    float: left;
+    padding: 10px;
+    font-size: 20px;
+    font-family: "Alegreya", serif;
+}
+
+.li a {
+    color: black;
+    text-decoration: none;
+    /*margin-top: 200px;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-top: 200px;*/
+    padding-left: 28px;
+}
+
+li a:hover {
+    font: bold;
+}
+
+.c {
+    padding-left: 320px;
+}
+
+.b {
+    margin-left: 150px;
+    background-color: rgb(235, 164, 66);
+    border-radius: 50px;
+    height: 30px;
+    width: 150px;
+    font-family: "Alegreya", serif;
+}
+
+video {
+    padding-left: 70px;
+}
+
+.m {
+    color: rgb(44, 44, 44);
+    font-size: 20px;
+    font-family: "Alegreya", serif;
+}
+
+.a {
+    font-size: 15px;
+    font-family: "Alegreya", serif;
+    color: rgb(68, 67, 67);
+    /*color: lightgray;*/
+}
+
+.q {
+    margin-left: 125px;
+    margin-right: 125px;
+    text-align: justify;
+    color: rgb(111, 110, 110);
+    font-family: "Alegreya", serif;
+    font-size: 20px;
+}
+
+.w {
+    color: rgb(114, 114, 114);
+}
+
+.e {
+    font-family: "Alegreya", serif;
+    color: rgb(59, 59, 59);
+}
+
+.r {
+    color: orange;
+}
+
+.p {
+    padding-left: 100px;
+    color: rgb(114, 114, 114);
+    font-family: "Alegreya", serif;
+}
+
+.column {
+    float: left;
+    padding: 5px;
+    width: 30%;
+    padding-left: 35px;
+}
+
+.row::after {
+    padding-left: 100px;
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.u {
+    color: black;
+    text-decoration: none;
+    margin: 100px;
+    font-size: 30px;
+    font-family: "Alegreya", serif;
+}
+
+.footer {
+    height: 300px;
+    background-color: white;
+}
+
+.kk {
+    margin: 30px;
+    color:  rgb(74, 74, 74);
+    padding-left: 60px;
+    padding-top: 50px;
+    font-size: 25px;
+    font-family: "Alegreya", serif;
+}
+
+.tr {
+    color:  rgb(74, 74, 74);
+    
+    margin: 90px;
+}
+
+.fgh {
+    font-family: "Alegreya", serif;
+}
+
+.yui {
+    color:  rgb(74, 74, 74);
+    font-family: "Alegreya", serif;
+}
+
